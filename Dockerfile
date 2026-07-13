@@ -1,7 +1,7 @@
 # begin with the base Alpine python image
 FROM python:3.14.6-alpine3.23
 # create a directory to store the application
-WORKDIR /usr/local/example
+WORKDIR /usr/local/ns-greetings
 
 # update alpine packages
 RUN apk update && apk upgrade

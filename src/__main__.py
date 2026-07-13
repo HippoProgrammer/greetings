@@ -5,7 +5,7 @@ import discord  # py-cord: discord bot framework
 from yaml import safe_load as load_yaml
 
 __version__ = "0.0.1"
-__program__ = "example"
+__program__ = "greetings"
 
 logger = logging.getLogger(__program__)  # get the logger for this script
 handler = logging.StreamHandler(stream=sys.stdout)  # set logs to be sent to stdout
